@@ -6,10 +6,12 @@ function bubbleSort(arr) {
     for (let j = 0; j < arr.length - 1; j++) {
 
       if (arr[j] > arr[j + 1]) {
+
         let temp = arr[j + 1];
         arr[j + 1] = arr[j];
         arr[j] = temp;
         console.log(arr.join(","));
+
       }
 
     }
